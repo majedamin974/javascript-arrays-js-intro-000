@@ -17,12 +17,12 @@ function addElementToEndOfArray(array,num)
  newArr=  [...array,num];
 return newArr;
 }
-// function destructivelyAddElementToEndOfArray(array,num)
-// {
-//   array.push(num);
-//   return array;
-//
-//  }
+function destructivelyAddElementToEndOfArray(array,num)
+{
+  array.push(num);
+  return array;
+
+ }
 //
 //  function accessElementInArray(array,index)
 // {
