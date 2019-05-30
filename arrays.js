@@ -5,12 +5,12 @@ array = new Array();
  newArr=  [num,...array];
 return newArr;
 }
-// function destructivelyAddElementToBeginningOfArray(array,num)
-// {
-//   array.unshift(num);
-//   return array;
-//
-//  }
+function destructivelyAddElementToBeginningOfArray(array,num)
+{
+  array.unshift(num);
+  return array;
+
+ }
 // function addElementToEndOfArray(array,num)
 // {
 //
